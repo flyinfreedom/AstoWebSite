@@ -9,19 +9,18 @@
         asto website
       </h2>
       <div class="links">
+        <n-link
+          :to="{ name: 'todolist-test' }"
+          class="button--green"
+        >
+          TODOLIST
+        </n-link>
         <a
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
         >
           Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
         </a>
       </div>
     </div>
@@ -36,8 +35,7 @@ import { Component, Vue } from 'nuxt-property-decorator'
     Logo: () => import('~/components/Logo.vue')
   }
 })
-
-export default class Index extends Vue {
+export default class App extends Vue {
 }
 </script>
 

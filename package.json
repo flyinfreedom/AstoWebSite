@@ -13,9 +13,11 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
-    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.19.2",
     "nuxt": "^2.0.0",
-    "nuxt-property-decorator": "^2.7.2"
+    "nuxt-property-decorator": "^2.7.2",
+    "qs": "^6.9.3",
+    "rxjs": "^6.5.5"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.6.0",
